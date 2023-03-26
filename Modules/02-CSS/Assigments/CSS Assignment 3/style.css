@@ -1,0 +1,42 @@
+.menu {    
+    /* Style for menu button */
+    width: 120px;
+    padding: 10px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  
+  .submenu {    
+    /* Hide submenu */
+    display: none;
+    position: relative;
+    margin: 5px 0;
+  
+  }
+  
+  .submenu-item {
+    position: absolute; 
+    width: 100px;
+    background-color: lightgrey;
+    padding: 10px;  
+  }
+
+  .submenu-item2 {
+    position: absolute;
+    width: 100px;
+    background-color: lightgrey;
+    padding: 10px;
+    top: 38px;
+  }
+
+  .submenu-item:hover {
+    background-color: grey;
+  }
+
+  .submenu-item2:hover {
+    background-color: grey;
+  }
+  .menu:hover .submenu {    
+    /* Show submenu on hover */
+    display: block;
+  }
