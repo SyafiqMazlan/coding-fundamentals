@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Contact Page</title>
+</head>
+<body>
+  <!--Top navigation bar-->
+  <header>
+  <div class="logo"><a href="#"><img src="/HTML CSS JAVASCRIPT/CSS/CSS Flexbox Capstone/logo.jpg"></a></div>
+    <nav> 
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Products</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <div class="button">
+        <ul>
+          <li><a href="#">Login</a></li>
+          <li><span>||</span></li>
+          <li><a href="#">Register</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="heading">
+      <h1 class="h1"><b> Get in touch</b></h1>
+      <p class="h3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora sapiente minima obcaecati illum corrupti maxime molestiae voluptatum quam. Earum dolorum reprehenderit inventore a voluptates eos voluptatibus voluptatum explicabo maiores possimus.</p>
+    </section>
+
+  <!--Contact page section-->
+    <section class="contact-page">
+    <!--left box contact information-->
+      <div class="contact-card">
+        <div class="contact-info">
+          <p><b>Contact Information</b></p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi dolore repellat earum sed error minus labore eligendi voluptas perferendis hic, porro possimus unde tempora nobis enim officiis consectetur. Voluptate, ducimus.</p>
+          <p class="contact-number">+60122228888</p>
+          <p class="email">syafiqmazlan27@gmail.com</p>
+          <div class="socmed-icon">
+            <a href="https://twitter.com/Syavi_8" class="fa fa-twitter"></a>
+            <a href="https://github.com/SyafiqMazlan" class="fa fa-github"></a>
+            <a href="https://codepen.io/SyafiqMazlan" class="fa fa-codepen"></a>
+          </div>
+        </div>
+    
+        <!--right box contact form-->  
+        <div class="contact-form">
+          <h3>Send us a feedback</h3>
+
+          <div class="form-content">
+            <div class="name">
+              <label for="first-name">First Name</label>
+              <input type="text" name="first-name" required>
+            </div>
+
+            <div class="name">
+              <label for="last-name">Last Name</label>
+              <input type="text" name="last-name" required>
+            </div>
+
+            <div class="name">
+              <label for="email">Email</label>
+              <input type="email" name="email" required>
+            </div>
+
+            <div class="name">  
+              <div class="optionallabel">
+                  <label for="phone">Phone</label>
+                  <label class="optional">Optional</label>
+              </div>
+              
+              <input type="tel" name="phone" pattern="+[0-9]{4}-[0-9]{4}-[0-9]{4}" required>
+            </div>
+
+            <div class="title">
+              <label for="subject">Subject</label>
+              <input type="text" name="subject" required>
+            </div>
+
+            <div class="enquiry">
+              <div class="message-content">
+                <label for="message">Message</label>
+                <label class="character-limit">Max. 500 characters</label>
+              </div>
+
+              <textarea id="message" name="message" maxlength="500" col="85" rows="10" required></textarea>
+            </div>
+          </div>
+
+          <button class="submit"><b>Submit</b></a></button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>For educational purpose only. No Copyright.</p>
+  </footer>
+
+
+  </div>
+</body>
+</html>

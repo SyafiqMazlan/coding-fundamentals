@@ -1,0 +1,224 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: rgb(223, 211, 211);
+}
+
+/* Style for the navigation bar */
+nav {
+  width: auto;
+  background: purple;
+  overflow: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/* Style for the navigation links */
+ul {
+  padding: 0;
+  margin: 0 0 0 200px;
+  list-style: none;
+}
+
+li {
+  float: left;
+}
+
+nav a {
+  width: 100px;
+  display: block;
+  padding: 20px 15px;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 100%;
+  color: #f2f2f2;
+  text-align: center;
+}
+
+nav a:hover {
+  background: rgb(78, 3, 78);
+  transition: 0.5s;
+  text-transform: uppercase;
+}
+
+/* Style for the logo */
+.logo {
+  position: absolute;
+  margin-top: 3px;
+  margin-left: 10px;
+}
+
+/* Style for the call-to-action button */
+.button {
+  padding-right: 10px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
+  align-items: center;
+}
+
+.button span {
+  font-weight: bolder;
+  font-size: x-large;
+}
+
+.button a {
+  border: 2px solid lightgray;
+  padding: 5px 20px;
+  border-radius: 10px;
+  background-color: rgb(0, 0, 0);
+
+}
+
+/* Style for heading section */
+.heading {
+  margin-top: 10px;
+  margin-left: 20px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  width: 65%;
+}
+
+.h1 {
+  font-size: xx-large;
+}
+
+.h3 {
+  font-size: x-large;
+}
+
+/* Style for Contact Card */
+.contact-page {
+  width: 67%;
+  margin-bottom: 50px;
+}
+
+.contact-card {
+  display: flex;
+  box-shadow: 0px 6px 20px 0px gray;
+  margin-left: 20px;
+  margin-right: 50px;
+  border: 2px solid black;
+}
+
+.contact-info {
+  font-size: x-large;
+  width: 30%;
+  padding: 50px;
+  background-image: linear-gradient(-180deg, #D4FFEC 0%, #d578dd 50%, #9f9bdd 100%);
+}
+
+.contact-number {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.contact-number::before {
+  font-family: FontAwesome;
+  content: "\f095";
+  font-weight: bolder;
+  font-size: large;
+  margin-right: 10px;
+}
+
+.email::before {
+  font-family: FontAwesome;
+  content: "\f0e0";
+  font-weight: bolder;
+  font-size: large;
+  margin-right: 10px;
+}
+
+.socmed-icon {
+  display: flex;
+  gap: 60px;
+  margin-top: 40px;
+  font-size: xxx-large;
+}
+
+.contact-form {
+  background-color: #fadfdf;
+  display: flex;
+  flex-direction: column;
+  padding: 40px 50px;
+  gap: 20px;
+}
+
+.form-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 30px;
+}
+
+.name {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;  
+}
+
+input {
+  height: 30px;
+  width: 300px;
+}
+
+.optionallabel {
+  display: flex;
+  justify-content: space-between;
+}
+
+.optional {
+  color: grey;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.title input {
+  width: 640px;
+}
+
+.enquiry {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.message-content {
+  display: flex;
+  justify-content: space-between;
+}  
+
+.character-limit {
+  color: grey;
+}
+
+.message {
+  resize: none;
+}
+
+textarea {
+  width: 640px;
+}
+
+button {
+  cursor: pointer;
+  width: 80px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: #b07bce;
+  border: none;
+  box-shadow: 0px 0px 5px 0px black;
+  align-self: flex-end;
+}
+
+.submit:hover {
+  background-color: #d578dd;
+  box-shadow: 0px 0px 5px 0px black;
+  transition: 0.5s;
+  text-transform: uppercase;  
+}
