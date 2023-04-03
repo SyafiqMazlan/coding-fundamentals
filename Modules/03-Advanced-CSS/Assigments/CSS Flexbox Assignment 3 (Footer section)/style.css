@@ -1,0 +1,135 @@
+html {
+    font-family: sans-serif;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: rgb(107, 194, 223);
+}
+
+.not__necessary {
+    background-color: rgb(107, 194, 223);
+    height: 60rem;
+    margin-bottom: 0;
+}
+
+.overall__footer {
+    background-color: rgb(215, 226, 226);
+    height: 16rem;
+    margin-top: -10;
+}
+
+.footer__content {
+    list-style-type: none;
+    display: flex;
+    height: 6rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.content__list {
+    display: flex;
+    height: 40px;
+    max-width: 40rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    justify-content: space-around; 
+    align-items: center;
+    flex: 1 1;
+    flex-wrap: wrap;
+}
+.info {
+    padding: 10px;
+    height: 25px;
+}    
+
+a {
+    text-decoration: none;
+    color: gray;
+}
+
+.social__medias {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    height: 50px;
+}
+
+.facebook {
+    height: 1.5rem;
+    width: 1.5rem;
+    padding-left: 15px;
+    padding-right: 15px;
+    fill: gray;
+}
+
+.facebook__logo {
+    color: gray;
+}
+
+.insta {
+    height: 1.5rem;
+    width: 1.5rem;
+    padding-left: 15px;
+    padding-right: 15px;
+    fill: gray;
+    color: gray;
+}
+
+.twitter {
+    height: 1.5rem;
+    width: 1.5rem;
+    padding-left: 15px;
+    padding-right: 15px;
+    fill: gray;
+}
+
+.github {
+    height: 1.5rem;
+    width: 1.5rem;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: gray;
+}
+
+.website {
+    height: 1.5rem;
+    width: 1.5rem;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: gray;
+    fill: gray;
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: rem;
+    color: gray;
+    height: 5rem;
+}
+
+@media (max-width: 600px) {
+    .overall__footer {
+        height: 18rem;
+    }
+
+    .footer__content {
+        height: 5rem;
+        
+        
+    }
+
+    .social__medias {
+        position: relative;
+        top: 2rem;
+    }
+    
+    .copyright {
+        align-items: flex-end;
+        
+    }
+}
